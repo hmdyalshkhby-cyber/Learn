@@ -2131,7 +2131,6 @@ const platformData = {
             "id": 5,
             "key": "section5",
             "title": "الاحصاء السياحي",
-            "description": " مصطفي فرغلي",
             "icon": "fa-square-poll-vertical",
             "lectures": [
             {
@@ -2221,34 +2220,41 @@ const platformData = {
                 ],
                 "flashcards": [
                     {
-                        "term": "Data Collection",
-                        "definition": "Obtaining measurements or values from observations and experiments conducted by the researcher.",
-                        "translation": "جمع البيانات",                    },
+                        "term": "Definition of Statistics",
+                        "definition": "The science concerned with methods of collecting, classifying, and summarizing data in a way that allows for their use in describing and analyzing information to make decisions under conditions of uncertainty."
+                    },
                     {
-                        "term": "Data Organization and Presentation",
-                        "definition": "Arranging the  collected data into specific tables designed for this purpose and presenting them in suitable forms such as charts, graphs,  or frequency distributions.  ",
-                        "translation": "تنظيم وعرض البيانات",
+                        "term": "Four Main Steps of Statistics",
+                        "definition": "1. Data Collection, 2. Data Organization and Presentation, 3. Data Analysis, and 4. Inference and Decision-Making[: 1, 2]."
                     },
-                                        {
-                        "term": "Data Analysis",
-                        "definition": "Using various statistical methods to analyze the collected and presented data with the aim of describing the phenomena under study",
-                        "translation": "تحليل البيانات",
+                    {
+                        "term": "Descriptive Statistics",
+                        "definition": "A branch of statistics that condenses a dataset into one or two pieces of information capable of representing all the data, moving from the whole to the part, and presenting data in tables or graphical charts[: 4]."
                     },
-                                        {
-                        "term": "Inference and Decision-Making",
-                        "definition": "Drawing conclusions from the analysis in the form of estimates or predictions",
-                        "translation": "الاستدلال واتخاذ القرارات",
+                    {
+                        "term": "Inferential Statistics",
+                        "definition": "Statistical methods used to reach decisions, judgments, and conclusions about a population by using a sample drawn from it[: 4, 5]."
                     },
-                                        {
-                        "term": "Objectives of Statistics",
-                        "definition": "Data Collection and Organization, Data Description ,Statistical Inference , Prediction ",
-                        "translation": "",
+                    {
+                        "term": "Statistical Inference",
+                        "definition": "A function based on testing a population hypothesis to use sample data to draw conclusions that can be generalized to the entire population, mainly including estimation and hypothesis testing[: 3]."
                     },
-                    //                     {
-                    //     "term": "",
-                    //     "definition": "",
-                    //     "translation": "",
-                    // },
+                    {
+                        "term": "Statistical Prediction",
+                        "definition": "The process of analyzing historical or current data using statistical measures and models to anticipate future events[: 3]."
+                    },
+                    {
+                        "term": "Qualitative Data",
+                        "definition": "Data that describe characteristics or attributes without using numbers, expressed in words or categories, where mathematical operations like addition or means cannot be performed[: 7, 8]."
+                    },
+                    {
+                        "term": "Quantitative Data",
+                        "definition": "Measurable quantities that can be expressed numerically and accurately, allowing mathematical operations such as addition, subtraction, and averaging[: 8, 9]."
+                    },
+                    {
+                        "term": "Importance of Statistics in Tourism and Hospitality",
+                        "definition": "Plays a vital role in understanding tourism movement data, measuring hotel performance, planning sector development, making informed investment decisions, and forecasting demand[: 5, 6]."
+                    }
                 ],
                 "quiz": [
                                         {
@@ -3143,89 +3149,171 @@ const platformData = {
                     // },
                 ]
             },
-                // {
-                //     "id": 2,
-                //     "title": "المحاضرة 2: الحوارات القصيرة",
-                //     "content": "في هذه المحاضرة سنتناول موضوع \"الحوارات القصيرة\" ضمن قسم \"مهارات الاستماع\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                //     "pdfUrl": "https://drive.google.com/file/d/PLACEHOLDER_section5_lecture2/view",
-                //     "vocabulary": [
-                //         {
-                //             "word": "Efficient",
-                //             "translation": "فعّال / كفؤ",
-                //             "example": "This method is more efficient."
-                //         },
-                //         {
-                //             "word": "Destination",
-                //             "translation": "الوجهة",
-                //             "example": "Paris is a popular travel destination."
-                //         },
-                //         {
-                //             "word": "Reservation",
-                //             "translation": "حجز",
-                //             "example": "I made a reservation for two people."
-                //         }
-                //     ],
-                //     "importantPoints": [
-                //         "استمع للنطق الصحيح قبل التكرار.",
-                //         "راجع المحتوى بشكل دوري لتثبيت المعلومة."
-                //     ],
-                //     "flashcards": [
-                //         {
-                //             "term": "Efficient",
-                //             "definition": "مصطلح متعلق بموضوع الحوارات القصيرة يُستخدم في السياقات التعليمية والعملية.",
-                //             "translation": "فعّال / كفؤ",
-                //             "example": "This method is more efficient."
-                //         },
-                //         {
-                //             "term": "Destination",
-                //             "definition": "مفهوم أساسي ضمن درس الحوارات القصيرة يساعد على الفهم العميق للموضوع.",
-                //             "translation": "الوجهة",
-                //             "example": "Paris is a popular travel destination."
-                //         }
-                //     ],
-                //     "quiz": [
-                //         {
-                //             "question": "ما هو المعنى الأصح لموضوع 'الحوارات القصيرة' في هذا الدرس؟",
-                //             "options": [
-                //                 "الإجابة الصحيحة والمرتبطة بالموضوع",
-                //                 "إجابة غير مرتبطة بالموضوع",
-                //                 "إجابة عامة غير دقيقة",
-                //                 "لا شيء مما سبق"
-                //             ],
-                //             "correct": 0
-                //         },
-                //         {
-                //             "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'الحوارات القصيرة'؟",
-                //             "options": [
-                //                 "الاستخدام الصحيح كما ورد في الشرح",
-                //                 "استخدام خاطئ شائع",
-                //                 "استخدام قديم غير مستعمل",
-                //                 "استخدام غير مرتبط"
-                //             ],
-                //             "correct": 0
-                //         },
-                //         {
-                //             "question": "عند التطبيق العملي لدرس 'الحوارات القصيرة'، ماذا يجب أن تفعل أولاً؟",
-                //             "options": [
-                //                 "اتباع الخطوات كما وردت في الدرس",
-                //                 "تجاهل القاعدة الأساسية",
-                //                 "البدء بدون فهم الأساسيات",
-                //                 "حفظ الأمثلة فقط دون فهم"
-                //             ],
-                //             "correct": 0
-                //         },
-                //         {
-                //             "question": "أي جملة تعكس بشكل صحيح فكرة 'الحوارات القصيرة'؟",
-                //             "options": [
-                //                 "الجملة التي تطبق القاعدة بشكل صحيح",
-                //                 "جملة تحتوي على خطأ واضح",
-                //                 "جملة غير مكتملة",
-                //                 "جملة بلغة أخرى تمامًا"
-                //             ],
-                //             "correct": 0
-                //         }
-                //     ]
-                // },
+                {
+                    "id": 2,
+                    "title": "المحاضرة 2",
+                    "pdfUrl": "https://drive.google.com/file/d/1m0xyXs-i19r27ubmnY71ZUZmTmoDpedC/view?usp=drive_link",
+                    "vocabulary": [
+                        // {
+                        //     "word": "Efficient",
+                        //     "translation": "فعّال / كفؤ",
+                        //     "example": "This method is more efficient."
+                        // },
+                        // {
+                        //     "word": "Destination",
+                        //     "translation": "الوجهة",
+                        //     "example": "Paris is a popular travel destination."
+                        // },
+                        // {
+                        //     "word": "Reservation",
+                        //     "translation": "حجز",
+                        //     "example": "I made a reservation for two people."
+                        // }
+                    ],
+                    "importantPoints": [
+                        // ".",
+                    ],
+                    "flashcards": [
+                        {
+                            "term": "Discrete Data",
+                            "definition": "Quantitative data that take whole number values only."
+                        },
+                        {
+                            "term": "Continuous Data",
+                            "definition": "Quantitative data that can take any value within a given range."
+                        },
+                        {
+                            "term": "Statistical Population",
+                            "definition": "A set that contains all the units, elements, or phenomena under investigation or statistical study."
+                        },
+                        {
+                            "term": "Finite Population",
+                            "definition": "A statistical population that is limited, such as the number of students in a classroom."
+                        },
+                        {
+                            "term": "Infinite Population",
+                            "definition": "A statistical population that is unlimited, such as the number of visitors to a website in the future."
+                        },
+                        {
+                            "term": "Sample",
+                            "definition": "A subset of the statistical population chosen to represent it to study its features and draw generalized conclusions."
+                        },
+                        {
+                            "term": "Simple Random Sample",
+                            "definition": "A sample where every individual in the population has an equal chance of being selected."
+                        },
+                        {
+                            "term": "Regular Sample",
+                            "definition": "A sample where every unit is selected after a fixed interval or order, such as every fifth name on a list."
+                        },
+                        {
+                            "term": "Stratified Sample",
+                            "definition": "A sample where the population is divided into levels (e.g., male/female) and a sample is taken from each section."
+                        },
+                        {
+                            "term": "Cluster Sample",
+                            "definition": "A sample where the population is divided into groups or clusters, and some of these groups are selected for study]."
+                        },
+                        {
+                            "term": "Statistical Unit",
+                            "definition": "The entity from which data are collected, which may be a person, a place, or an object."
+                        },
+                        {
+                            "term": "Variable",
+                            "definition": "A characteristic that varies among individuals within a group in quantity or quality"
+                        },
+                        {
+                            "term": "Statistical Variable",
+                            "definition": "A variable that represents the categories or values a phenomenon can take"
+                        },
+                        {
+                            "term": "Random Variable",
+                            "definition": "A qualitative or quantitative phenomenon whose value cannot be predicted in advance and is associated with probabilities."
+                        },
+                        {
+                            "term": "Nominal Variables",
+                            "definition": "Variables that have a limited number of categories without any inherent ranking or weight among them."
+                        },
+                        {
+                            "term": "Ordinal Variables",
+                            "definition": "Variables with a limited number of categories that can be arranged in order, though exact differences cannot be precisely determined."
+                        },
+                        {
+                            "term": "Interval Variables",
+                            "definition": "Quantitative variables whose values allow arithmetic operations where the zero value does not indicate the absence of the characteristic."
+                        },
+                        {
+                            "term": "Ratio Variables",
+                            "definition": "Quantitative variables where the value zero represents the true, complete absence of the characteristic being measured."
+                        },
+                        {
+                            "term": "Quantitative Variables",
+                            "definition": "Variables where the value has a numerical meaning showing how much of a feature a person possesses."
+                        },
+                        {
+                            "term": "Qualitative Variables",
+                            "definition": "Variables that accept descriptive or non-numeric values indicating whether an individual possesses an attribute or category."
+                        },
+                        {
+                            "term": "Independent Variable",
+                            "definition": "A variable whose value or changes are used to predict or affect the value of another variable"
+                        },
+                        {
+                            "term": "Dependent Variable",
+                            "definition": "A variable whose value is predicted or affected by the independent variable"
+                        },
+                        {
+                            "term": "Primary Sources",
+                            "definition": "Sources from which data is obtained directly by the researcher personally collecting it from the unit being studied."
+                        },
+                        {
+                            "term": "Questionnaire",
+                            "definition": "A series of questions or statements covering psychological, social, educational, or personal topics filled out by the respondent."
+                        }
+                    ],
+                    "quiz": [
+                        // {
+                        //     "question": "ما هو المعنى الأصح لموضوع 'الحوارات القصيرة' في هذا الدرس؟",
+                        //     "options": [
+                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                        //         "إجابة غير مرتبطة بالموضوع",
+                        //         "إجابة عامة غير دقيقة",
+                        //         "لا شيء مما سبق"
+                        //     ],
+                        //     "correct": 0
+                        // },
+                        // {
+                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'الحوارات القصيرة'؟",
+                        //     "options": [
+                        //         "الاستخدام الصحيح كما ورد في الشرح",
+                        //         "استخدام خاطئ شائع",
+                        //         "استخدام قديم غير مستعمل",
+                        //         "استخدام غير مرتبط"
+                        //     ],
+                        //     "correct": 0
+                        // },
+                        // {
+                        //     "question": "عند التطبيق العملي لدرس 'الحوارات القصيرة'، ماذا يجب أن تفعل أولاً؟",
+                        //     "options": [
+                        //         "اتباع الخطوات كما وردت في الدرس",
+                        //         "تجاهل القاعدة الأساسية",
+                        //         "البدء بدون فهم الأساسيات",
+                        //         "حفظ الأمثلة فقط دون فهم"
+                        //     ],
+                        //     "correct": 0
+                        // },
+                        // {
+                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'الحوارات القصيرة'؟",
+                        //     "options": [
+                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                        //         "جملة تحتوي على خطأ واضح",
+                        //         "جملة غير مكتملة",
+                        //         "جملة بلغة أخرى تمامًا"
+                        //     ],
+                        //     "correct": 0
+                        // }
+                    ]
+                },
                 // {
                 //     "id": 3,
                 //     "title": "المحاضرة 3: الإعلانات الصوتية",
