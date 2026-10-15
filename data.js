@@ -6,63 +6,354 @@ const platformData = {
             "title": "اعمال شركات السياحة",
             "icon": "fa-solid fa-building",
             "lectures": [
-                // {
-                //     "id": 1,
-                //     "title": "المحاضرة 1: الحروف والأصوات",
-                //     // "content": "في هذه المحاضرة سنتناول موضوع \"الحروف والأصوات\" ضمن قسم \"أساسيات اللغة الإنجليزية\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                //     "pdfUrl": "https://drive.google.com/file/d/PLACEHOLDER_section1_lecture1/view",
-                //     "vocabulary": [
+                {
+                    "id": 1,
+                        "title": "المحاضرة 1",
+                    // "content": "في هذه المحاضرة سنتناول موضوع \"الحروف والأصوات\" ضمن قسم \"أساسيات اللغة الإنجليزية\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                    "pdfUrl": "https://drive.google.com/file/d/1Z8J-h0IFo5i5mQVo2v4-Gg_BpwaV6PuJ/view?usp=drive_link",
+                    "vocabulary": [
 
-                //     ],
-                //     "importantPoints": [
-                //     ],
-                //     // "flashcards": [
-                //     //     {
-                //     //         "term": "Deadline",
-                //     //         "definition": "مصطلح متعلق بموضوع الحروف والأصوات يُستخدم في السياقات التعليمية والعملية.",
-                //     //         "translation": "الموعد النهائي",
-                //     //         "example": "The deadline for the report is Friday."
-                //     //     },
-                //     //     {
-                //     //         "term": "Efficient",
-                //     //         "definition": "مفهوم أساسي ضمن درس الحروف والأصوات يساعد على الفهم العميق للموضوع.",
-                //     //         "translation": "فعّال / كفؤ",
-                //     //         "example": "This method is more efficient."
-                //     //     }
-                //     // ],
-                //     "quiz": [
-                //     ]
-                // },
-                // {
-                //     "id": 2,
-                //     "title": "المحاضرة 2: الأزمنة البسيطة",
-                //     // "content": "في هذه المحاضرة سنتناول موضوع \"الحروف والأصوات\" ضمن قسم \"أساسيات اللغة الإنجليزية\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                //     "pdfUrl": "https://drive.google.com/file/d/PLACEHOLDER_section1_lecture1/view",
-                //     "vocabulary": [
+                    ],
+                    "importantPoints": [
+                    ],
+                    "flashcards":
+                        [
+                            {
+                                "term": "Basic Components of Itinerary",
+                                "definition": "The six basic components are: (A) Transportation, (B) Transfer (Meet & Assist), (C) Accommodation, (D) Sightseeing, (E) Lunch-Out, and (F) Dinner Show."
+                            },
+                            {
+                                "term": "International Flight",
+                                "definition": "A flight that takes off in one country and lands in another[cite: 3]."
+                            },
+                            {
+                                "term": "Domestic Flight",
+                                "definition": "A flight that begins and ends in the same country[cite: 3]."
+                            },
+                            {
+                                "term": "Sea Cruise",
+                                "definition": "A large passenger ship used mainly for vacationing, serving as both transportation by sea and a kind of accommodation equipped and staffed for leisure travel."
+                            },
+                            {
+                                "term": "Sleeping Trains",
+                                "definition": "Trains that include a bed and a meal during trips, usually used by tourists when traveling for long distances (more than 5 hours)."
+                            },
+                            {
+                                "term": "Day Trains (Sitting Trains)",
+                                "definition": "Normal trains serving many destinations in Egypt that are usually much less expensive than sleeping trains."
+                            },
+                            {
+                                "term": "Transfer (Meet & Assist)",
+                                "definition": "Transport provided between two places, for example between an airport and a hotel or between a train station and a hotel and vice versa."
+                            },
+                            {
+                                "term": "Accommodation Check-in/Check-out Times",
+                                "definition": "Check-in is usually at 12:00 and check-out procedures are also at 12:00."
+                            },
+                            {
+                                "term": "Hotel",
+                                "definition": "A place that has rooms where people can stay especially when traveling, providing food, lodging, and other services for paying guests."
+                            },
+                            {
+                                "term": "Resort",
+                                "definition": "A place where tourists frequently or generally go for relaxation or pleasure, especially one providing rest and recreation facilities for vacationers."
+                            },
+                            {
+                                "term": "Motels",
+                                "definition": "A type of budget-friendly lodging designed primarily for travelers, typically located along highways and major roads, offering easy access to parking with rooms that open directly to the outside."
+                            },
+                            {
+                                "term": "Hostels",
+                                "definition": "A popular, social lodging option among budget travelers that offers dormitory-style rooms and shared facilities."
+                            },
+                            {
+                                "term": "Classical Cruise (Nile)",
+                                "definition": "A Nile cruise lasting from 3 to 4 nights between Luxor and Aswan."
+                            },
+                            {
+                                "term": "Long Cruise (Nile)",
+                                "definition": "A Nile cruise lasting from 6 to 7 nights between Luxor and Aswan."
+                            },
+                            {
+                                "term": "Super Long Cruise (Nile)",
+                                "definition": "A Nile cruise lasting from 12 to 13 nights between Cairo and Aswan."
+                            },
+                            {
+                                "term": "Lake Cruise",
+                                "definition": "A cruise lasting 4 nights, such as a Lake Nasser Cruise."
+                            },
+                            {
+                                "term": "Restaurant Cruise",
+                                "definition": "A cruise usually in Cairo for lunch or dinner with entertainment, where each tour lasts 2 hours."
+                            },
+                            {
+                                "term": "Sightseeing (Attractions)",
+                                "definition": "Famous or interesting sights of a place that tourists visit, involving landmarks, historical sites, natural wonders, museums, galleries, cultural experiences, city tours, scenic drives, architecture tours, wildlife viewing, and culinary tours."
+                            },
+                            {
+                                "term": "Lunch-Out",
+                                "definition": "The act of dining at a restaurant, café, or other food establishment away from one's accommodation during travel, offering guests a curated experience to enjoy local cuisine."
+                            },
+                            {
+                                "term": "Dinner Show",
+                                "definition": "A dining experience that combines a meal with a live entertainment performance (such as music, dance, theater, or comedy) to provide a multi-sensory, immersive cultural experience."
+                            }
+                            ],
+                    "quiz": [
+                            
+  {
+    "question": "A flight that takes off in one country and lands in another.",
+    "options": ["International Flight", "Domestic Flight", "Sea Cruise", "Sleeping Trains"],
+    "correct": 0
+  },
+  {
+    "question": "A flight that begins and ends in the same country.",
+    "options": ["International Flight", "Domestic Flight", "Sea Cruise", "Day Trains"],
+    "correct": 1
+  },
+  {
+    "question": "Several bus companies provide affordable pricing and comfortable chairs to all Egyptian cities.",
+    "options": ["Buses", "Sleeping Trains", "Sea Cruise", "Transfer (Meet & Assist)"],
+    "correct": 0
+  },
+  {
+    "question": "A large passenger ship used mainly for vacationing, serving as both sea transportation and accommodation, equipped and staffed for leisure travel.",
+    "options": ["Sleeping Trains", "Sea Cruise", "Resort", "Day Trains"],
+    "correct": 1
+  },
+  {
+    "question": "Trains that include a bed and a meal while on trips, usually used when traveling for long distances (more than 5 hours).",
+    "options": ["Day Trains", "Buses", "Sleeping Trains", "Sea Cruise"],
+    "correct": 2
+  },
+  {
+    "question": "Normal sitting trains serving many destinations in Egypt, usually much less expensive than sleeping trains.",
+    "options": ["Sleeping Trains", "Day Trains", "Buses", "Sea Cruise"],
+    "correct": 1
+  },
+  {
+    "question": "Transport provided between two places, for example between an airport and hotel or between a train station and hotel and vice versa.",
+    "options": ["Sightseeing", "Transfer (Meet & Assist)", "Lunch-Out", "Accommodation"],
+    "correct": 1
+  },
+  {
+    "question": "Lodging, food, and services or traveling space and related services, used to refer to buildings or rooms where people live or stay.",
+    "options": ["Accommodation", "Transportation", "Dinner Show", "Resort"],
+    "correct": 0
+  },
+  {
+    "question": "A place that has rooms where people can stay especially when they are traveling, providing food, lodging, and other services for paying guests.",
+    "options": ["Hostels", "Motels", "Hotel", "Resort"],
+    "correct": 2
+  },
+  {
+    "question": "A place where tourists frequently or generally go for relaxation or pleasure, especially one providing rest and recreation facilities for vacationers.",
+    "options": ["Hotel", "Hostels", "Motels", "Resort"],
+    "correct": 3
+  },
+  {
+    "question": "A type of budget-friendly lodging designed primarily for travelers, typically located along highways and major roads, offering easy access to parking with rooms opening directly to the outside.",
+    "options": ["Motels", "Hotel", "Hostels", "Resort"],
+    "correct": 0
+  },
+  {
+    "question": "Popular among budget travelers, offering dormitory-style rooms and shared facilities, making them a social option.",
+    "options": ["Hotel", "Hostels", "Motels", "Resort"],
+    "correct": 1
+  },
+  {
+    "question": "A vehicle to travel at a moderate and efficient speed, with types including Nile Cruises or Sea Cruises.",
+    "options": ["Cruise", "Hotel", "Buses", "Sleeping Trains"],
+    "correct": 0
+  },
+  {
+    "question": "A Nile Cruise type that lasts from 3 to 4 nights between Luxor and Aswan.",
+    "options": ["Long Cruise", "Super Long Cruise", "Classical Cruise", "Lake Cruise"],
+    "correct": 2
+  },
+  {
+    "question": "A Nile Cruise type that lasts from 6 to 7 nights between Luxor and Aswan.",
+    "options": ["Classical Cruise", "Long Cruise", "Super Long Cruise", "Restaurant Cruise"],
+    "correct": 1
+  },
+  {
+    "question": "A Nile Cruise type that lasts from 12 to 13 nights between Cairo and Aswan.",
+    "options": ["Lake Cruise", "Classical Cruise", "Super Long Cruise", "Long Cruise"],
+    "correct": 2
+  },
+  {
+    "question": "A Nile Cruise type that lasts for 4 nights, such as the Lake Nasser Cruise.",
+    "options": ["Lake Cruise", "Restaurant Cruise", "Classical Cruise", "Long Cruise"],
+    "correct": 0
+  },
+  {
+    "question": "A Nile cruise usually located in Cairo for lunch or dinner with entertainment, lasting 2 hours per tour.",
+    "options": ["Lake Cruise", "Restaurant Cruise", "Classical Cruise", "Long Cruise"],
+    "correct": 1
+  },
+  {
+    "question": "Famous or interesting sights of a place where tourists visit, involving landmarks, historical sites, natural wonders, museums, and galleries.",
+    "options": ["Sightseeing", "Lunch-Out", "Dinner Show", "Transfer (Meet & Assist)"],
+    "correct": 0
+  },
+  {
+    "question": "The act of dining at a restaurant, café, or other food establishment away from one's accommodation during travel, offering a break from the usual routine.",
+    "options": ["Dinner Show", "Sightseeing", "Lunch-Out", "Transfer (Meet & Assist)"],
+    "correct": 2
+  },
+  {
+    "question": "A dining experience that combines a meal with a live entertainment performance, such as music, dance, theater, or comedy.",
+    "options": ["Lunch-Out", "Sightseeing", "Accommodation", "Dinner Show"],
+    "correct": 3
+  },
+  {
+    "question": "The basic component of an itinerary that includes traveling by road, sea, railway, and air.",
+    "options": ["Transportation", "Accommodation", "Sightseeing", "Transfer (Meet & Assist)"],
+    "correct": 0
+  },
+  {
+    "question": "Check-in and check-out procedures for accommodation facilities are usually established precisely at what time?",
+    "options": ["10:00", "12:00", "14:00", "16:00"],
+    "correct": 1
+  },
+  {
+    "question": "A type of transportation involving large passenger ships equipped and staffed for leisure travel and vacationing.",
+    "options": ["Sea Cruise", "Buses", "Day Trains", "International Flight"],
+    "correct": 0
+  },
+  {
+    "question": "A form of travel attraction that involves City Tours, Scenic Drives, Architecture Tours, Wildlife Viewing, and Culinary Tours.",
+    "options": ["Sightseeing", "Lunch-Out", "Dinner Show", "Transfer (Meet & Assist)"],
+    "correct": 0
+  },
+  {
+    "question": "An activity defined as stepping out of one's usual place like home, office, or hotel to have food elsewhere, exploring local cuisine from street food to formal dining.",
+    "options": ["Lunch-Out", "Dinner Show", "Accommodation", "Sightseeing"],
+    "correct": 0
+  },
+  {
+    "question": "A tourism experience designed to provide guests with a multi-sensory experience combining a restaurant meal with live concert music or performance during a break in the meal.",
+    "options": ["Dinner Show", "Lunch-Out", "Sea Cruise", "Transfer (Meet & Assist)"],
+    "correct": 0
+  },
+  {
+    "question": "A category of train travel utilized typically when tourists travel for long distances exceeding 5 hours, which includes a bed and a meal.",
+    "options": ["Sleeping Trains", "Day Trains", "Buses", "Domestic Flight"],
+    "correct": 0
+  },
+  {
+    "question": "A lodging option that offers dormitory-style rooms and shared facilities, making it highly popular and social among budget travelers.",
+    "options": ["Hostels", "Motels", "Hotel", "Resort"],
+    "correct": 0
+  },
+  {
+    "question": "The overarching term used to refer to buildings or rooms where people live or stay, encompassing lodging, food, and services.",
+    "options": ["Accommodation", "Transportation", "Sightseeing", "Transfer (Meet & Assist)"],
+    "correct": 0
+  }
+                    ],
+                },
+                {
+                    "id": 2,
+                    "title": "المحاضرة 2",
+                    "pdfUrl": "https://drive.google.com/file/d/1ibiGiOszAUVJrDoZZSXF_wn_oc8jG-y9/view?usp=drive_link",
+                    "vocabulary": [
 
-                //     ],
-                //     "importantPoints": [
-                //     ],
-                //     // "flashcards": [
-                //     //     {
-                //     //         "term": "Deadline",
-                //     //         "definition": "مصطلح متعلق بموضوع الحروف والأصوات يُستخدم في السياقات التعليمية والعملية.",
-                //     //         "translation": "الموعد النهائي",
-                //     //         "example": "The deadline for the report is Friday."
-                //     //     },
-                //     //     {
-                //     //         "term": "Efficient",
-                //     //         "definition": "مفهوم أساسي ضمن درس الحروف والأصوات يساعد على الفهم العميق للموضوع.",
-                //     //         "translation": "فعّال / كفؤ",
-                //     //         "example": "This method is more efficient."
-                //     //     }
-                //     // ],
-                //     "quiz": [
-                //     ]
-                // },
-                // {
+                    ],
+                    // "importantPoints": [
+                    // ],
+                    "flashcards": [
+                        {
+                            "term": "BB",
+                            "definition": "Bed and Breakfast: A type of lodging that offers overnight accommodation and breakfast, often in a private home or a small, charming establishment."
+                        },
+                        {
+                            "term": "HB",
+                            "definition": "Half Board (Bed + Breakfast + Lunch or Dinner): A meal plan offered by hotels and resorts that includes breakfast and one additional meal, typically dinner, though sometimes it can be lunch."
+                        },
+                        {
+                            "term": "FB",
+                            "definition": "Full Board (Bed + Breakfast + Lunch + Dinner): A meal plan offered by hotels and resorts that includes all three main meals of the day."
+                        },
+                        {
+                            "term": "HD",
+                            "definition": "Half Day = 4 Hours: Typically refers to a tour, excursion, or activity that lasts about 4 hours, generally covering either the morning or the afternoon."
+                        },
+                        {
+                            "term": "FD",
+                            "definition": "Full Day = 8 Hours = Over Day: Refers to a tour, excursion, or activity that lasts a full day typically around 8 hours, providing an in-depth experience covering multiple sites."
+                        },
+                        {
+                            "term": "PAX",
+                            "definition": "Passenger: A common term used to refer to the number of persons or passengers in a booking, tour, or reservation."
+                        },
+                        {
+                            "term": "SGL Room",
+                            "definition": "Single Room: A room intended for one person, commonly offered in hotels, hostels, and accommodations worldwide."
+                        },
+                        {
+                            "term": "DBL Room",
+                            "definition": "Double Room: One large bed (double, queen, or king), suitable for two people to share."
+                        },
+                        {
+                            "term": "Twin Room",
+                            "definition": "A room with 2 single beds: Designed for two people, featuring two separate single beds."
+                        },
+                        {
+                            "term": "TPL Room",
+                            "definition": "Triple Room: A hotel room that accommodates three people; it is a Double Room with an extra bed."
+                        },
+                        {
+                            "term": "King Room",
+                            "definition": "A room with one king-size bed (typically 76 inches wide and 80 inches long / approximately 193 cm by 203 cm)."
+                        },
+                        {
+                            "term": "Adjoining Rooms",
+                            "definition": "Two or more hotel rooms that are located next to each other, often with a shared wall but without a connecting door."
+                        },
+                        {
+                            "term": "Connecting Rooms",
+                            "definition": "Two or more hotel rooms that are directly linked by a door within the same space, allowing guests to move freely between rooms without going into the hallway."
+                        }
+                    ],
+                    "quiz": [
+                         {"question": "It is a type of lodging that offers overnight accommodation and breakfast, often in a private home or a small, charming establishment.","options": ["Full Board ", "Lunch", "Half Board", "Bed and Breakfast"],"correct": 3},
+                         {"question": "Are popular for several reasons: Personalized Experience, Unique Accommodations, Local Cuisine, and Community Feel.","options": ["FD", "BB", "FB", "HD"],"correct": 1},
+                         {"question": "Half Board","options": ["HB", "HD", "FB ", "FD"],"correct": 0},
+                         {"question": ".... is a meal plan offered by hotels and resorts that includes breakfast and one additional meal, typically dinner, though sometimes it can be lunch","options": ["FB", "Half Board", "PAX", "Bed and Breakfast"],"correct": 1},
+                         {"question": ".... is popular among travelers who want a mix of planned meals and free time for exploring local cuisine or casual dining options","options": ["Full Board", "Half Board", "Bed and Breakfast", "PAX"],"correct": 1},
+                         {"question": ".....  is a meal plan offered by hotels and resorts that includes all three main meals of the day: breakfast, lunch, and dinner.","options": ["Full Board", "Half Board", "Bed and Breakfast", "PAX"],"correct": 0},
+                         {"question": "This option is convenient for travelers who prefer having all meals covered at their accommodation, reducing the need to find restaurants for each meal","options": ["Over Day", "Full Day", "Full Board", "Half Day"],"correct": 2},
+                         {"question": ".... is popular among travelers who plan to stay mostly at their accommodation, such as families, all-inclusive resort guests, or those visiting remote areas where dining options are limited.","options": ["One Board", "Half Board", "Bed and Breakfast", "Full Board"],"correct": 3},
+                         {"question": "....  typically refers to a tour, excursion, or activity that lasts about 4 hours, generally covering either the morning or the afternoon","options": ["HB", "FB", "Half Day", "Full Day"],"correct": 2},
+                         {"question": "This duration provides enough time for travelers to experience a destination or activity without taking up the entire day, allowing for flexibility to enjoy other experiences or relax","options": ["HB", "FB", "Half Day", "Full Day"],"correct": 2},
+                         {"question": "..... refers to a tour, excursion, or activity that lasts a full day typically around 8 hours.","options": ["LB", "HT", "Full Day", "HD"],"correct": 2},
+                         {"question": "This type of tour provides an in-depth experience, often covering multiple sites or activities and giving travelers a comprehensive look at a destination or attraction","options": ["LB", "HT", "FD", "HD"],"correct": 2},
+                         {"question": "....  is a common term used to refer to the number of persons or passengers in a booking, tour, or reservation.","options": ["PAX", "FAX", "GUEST", "TRAVELER"],"correct": 0},
+                         {"question": "... refers to a room intended for one person.","options": ["DBL Room", "SGL Room", "TPL Room", "QNL Room"],"correct": 1},
+                         {"question": "This room type is commonly offered in hotels, hostels, and accommodations worldwide, catering specifically to solo travelers","options": ["DBL Room", "Queen Room", "QNL Room", "SGL Room"],"correct": 3},
+                         {"question": "..... One large bed (double, queen, or king), suitable for two people to share.","options": ["King Room", "Double Room", "TPL", "Twin"],"correct": 1},
+                         {"question": "A room with 2 single beds","options": ["King Room", "Double Room", "TPL", "Twin Room"],"correct": 3},
+                         {"question": "A .... is a hotel or accommodation room designed for two people, featuring two separate single beds.","options": ["King Room", "Double Room", "Twin Room", "TPL Room"],"correct": 2},
+                         {"question": "..... are ideal for guests who prefer separate beds while sharing the same room, making them a practical choice for business travelers, friends, or family members traveling together","options": ["King Room", "Double Room", "Twin Room", "TPL Room"],"correct": 2},
+                         {"question": "A ..... stands for a Triple Room, a hotel room that accommodates three people.","options": ["TPL Room", "DBL Room", "SGL Room", "QNL Room"],"correct": 0},
+                         {"question": "..... are a convenient option for small groups, families, or friends traveling together who wish to share the same room while having separate beds","options": ["Twin rooms", "Double rooms", "King rooms", "Triple rooms"],"correct": 3},
+                         {"question": "A room with one king size bed","options": ["Extra Room", "King Room", "DBL Room", "Twin Room"],"correct": 1},
+                         {"question": "A .... refers to a hotel or accommodation room featuring a king-sized bed, which is typically 76 inches wide and 80 inches long (approximately 193 cm by 203 cm).","options": ["DBL Room", "Queen Room", "QNL Room", "King Room"],"correct": 3},
+                         {"question": "...... refer to two or more hotel rooms that are located next to each other, often with a shared wall but without a connecting door","options": ["TPL Room", "King rooms", "Adjoining Rooms", "Connection Rooms"],"correct": 2},
+                         {"question": "..... refer to two or more hotel rooms that are directly linked by a door within the same space, allowing guests to move freely between the rooms without having to go into the hallway","options": ["Connecting Rooms", "Adjoining Rooms", "King Room ", "QNL Room"],"correct": 0},
+                        //  {"question": "","options": [" ", "", " ", ""],"correct": 1},
+                        //  {"question": "","options": [" ", "", " ", ""],"correct": 1},
+                        //  {"question": "","options": [" ", "", " ", ""],"correct": 1},
+                        //  {"question": "","options": [" ", "", " ", ""],"correct": 1},
+                        //  {"question": "","options": [" ", "", " ", ""],"correct": 1},
+                        //  {"question": "","options": [" ", "", " ", ""],"correct": 1},
+                         
+                         
+                    ]
+                },
                 //     "id": 3,
-                //     "title": "المحاضرة 3: الضمائر",
+                    // "title": "المحاضرة 3",
                 //     // "content": "في هذه المحاضرة سنتناول موضوع \"الحروف والأصوات\" ضمن قسم \"أساسيات اللغة الإنجليزية\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
                 //     "pdfUrl": "https://drive.google.com/file/d/PLACEHOLDER_section1_lecture1/view",
                 //     "vocabulary": [
@@ -922,23 +1213,87 @@ const platformData = {
                         "Service quality may differ from one employee to another or from one time to another because of differences in experience, training, and operating conditions. Therefore, tourism establishments need standards and procedures that help maintain a stable level of service.",
                         "Unused tourism capacity cannot be stored and sold later. For example, an unsold hotel room or an empty seat on a tourist trip cannot be stored for future sale.",
                     ],
-                    "flashcards": [
+                    "flashcards":[
+                        {
+                            "term": "Quality (General Definition)",
+                            "definition": "The ability of a product or service to meet the specific requirements, needs, and expectations of the customer, regardless of price or luxury."
+                        },
+                        {
+                            "term": "Quality in the Tourism Industry",
+                            "definition": "The ability of a tourism organization to continuously provide products, services, and experiences that meet the needs and expectations of tourists, while maintaining an appropriate level of efficiency, reliability, and safety."
+                        },
+                        {
+                            "term": "Evaluation of Tourism Service Quality",
+                            "definition": "Does not depend only on the opinion of management or employees; it is largely related to the tourist's perception of the service received."
+                        },
+                        {
+                            "term": "Characteristics of Tourism Services",
+                            "definition": "The four main characteristics that make tourism quality management complex: Intangibility, Simultaneous Production and Consumption, Variability, and Perishability."
+                        },
                         {
                             "term": "Intangibility",
-                            "definition": "A tourism service is not a physical product that can be fully examined before purchase. Therefore, tourists depend on factors such as reputation, reviews, photos, and recommendations when making their purchasing decisions",
+                            "definition": "A tourism service is not a physical product that can be fully examined before purchase. Therefore, tourists depend on factors such as reputation, reviews, photos, and recommendations when making their purchasing decisions."
                         },
                         {
                             "term": "Simultaneous Production and Consumption",
-                            "definition": "the service is produced and consumed at the same time, such as reception services and tour guiding. Therefore, the interaction between the employee and the tourist is an essential part of service quality.",
+                            "definition": "A characteristic where many tourism services (such as reception and tour guiding) are produced and consumed at the same time, making the interaction between the employee and the tourist an essential part of service quality."
                         },
                         {
                             "term": "Variability",
-                            "definition": "Service quality may differ from one employee to another or from one time to another because of differences in experience, training, and operating conditions. Therefore, tourism establishments need standards and procedures that help maintain a stable level of service",
+                            "definition": "The characteristic where service quality may differ from one employee to another or from one time to another because of differences in experience, training, and operating conditions, requiring established standards and procedures."
                         },
                         {
                             "term": "Perishability",
-                            "definition": "Unused tourism capacity cannot be stored and sold later. For example, an unsold hotel room or an empty seat on a tourist trip cannot be stored for future sale.",
+                            "definition": "The characteristic where unused tourism capacity cannot be stored and sold later, such as an unsold hotel room or an empty seat on a tourist trip."
                         },
+                        {
+                            "term": "Importance of Quality in Tourism",
+                            "definition": "A basic element for success that achieves tourist satisfaction, increases competitiveness, improves reputation, increases repeat business, reduces complaints and errors, and helps retain existing customers while attracting new ones."
+                        },
+                        {
+                            "term": "Quality and Tourist Satisfaction Relationship",
+                            "definition": "Evaluated by comparing expectations before receiving the service with actual perception after receiving it. Performance lower than expectations causes dissatisfaction; matching expectations causes satisfaction; exceeding expectations leads to high satisfaction."
+                        },
+                        {
+                            "term": "Competitive Advantage in Tourism",
+                            "definition": "Achieved by providing better value to tourists compared with competitors through service quality, ease of obtaining service, customer care level, and effective problem-solving."
+                        },
+                        {
+                            "term": "Total Quality Management (TQM)",
+                            "definition": "A concept that considers quality a shared responsibility among all employees across all activities and processes within the organization, focusing on customer needs and continuous improvement."
+                        },
+                        {
+                            "term": "Principle: Focusing on Tourists' Needs",
+                            "definition": "The first basic principle of tourism quality, centering all efforts on the needs and expectations of tourists."
+                        },
+                        {
+                            "term": "Principle: Clear Service Standards",
+                            "definition": "The second basic principle of tourism quality, involving a firm commitment to clear service standards and levels."
+                        },
+                        {
+                            "term": "Principle: Error Reduction and Prevention",
+                            "definition": "The third basic principle of tourism quality, focused on reducing errors and working to prevent them before they occur."
+                        },
+                        {
+                            "term": "Principle: Employee Training",
+                            "definition": "The fourth basic principle of tourism quality, dedicated to training employees and developing their skills."
+                        },
+                        {
+                            "term": "Principle: Quick Complaint Response",
+                            "definition": "The fifth basic principle of tourism quality, requiring rapid responses to complaints and problems."
+                        },
+                        {
+                            "term": "Principle: Continuous Improvement",
+                            "definition": "The sixth basic principle of tourism quality, emphasizing the continuous improvement of products and services."
+                        },
+                        {
+                            "term": "Principle: Customer Feedback Utilization",
+                            "definition": "The seventh basic principle of tourism quality, using customer opinions and evaluation results to improve performance."
+                        },
+                        {
+                            "term": "Essence of Quality Systems in Tourism",
+                            "definition": "Quality should not be viewed only as inspection or error detection, but as an integrated system based on meeting tourists' needs and continuously improving all stages of service delivery."
+                        }
                     ],
                     "quiz": [
                         {"question": "A tourism service is not a physical product that can be fully examined before purchase. Therefore, tourists depend on factors such as reputation, reviews, photos, and recommendations when making their purchasing decisions.","options": ["Intangibility","Perishability","Variability","Simultaneous Production and Consumption"],"correct": 0},
@@ -3814,566 +4169,566 @@ const platformData = {
             "title": "الادارة السياحية",
             "icon": "fa-solid fa-users-gear",
             "lectures": [
-                {
-                    "id": 1,
-                    "title": "المحاضرة الاولي",
-                    // "content": "في هذه المحاضرة سنتناول موضوع \"المقابلات الشخصية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-RLpGq6zMHUNcNgy8c-MUHdQOjPvSQVT/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                // {
+                //     "id": 1,
+                //     "title": "المحاضرة الاولي",
+                //     // "content": "في هذه المحاضرة سنتناول موضوع \"المقابلات الشخصية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-RLpGq6zMHUNcNgy8c-MUHdQOjPvSQVT/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "المحاضرة الثانية ",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"كتابة السيرة الذاتية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-SqUhdCsRHKRPwCAoRmcOXUHrPj8ZmPF/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 2,
+                //     "title": "المحاضرة الثانية ",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"كتابة السيرة الذاتية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-SqUhdCsRHKRPwCAoRmcOXUHrPj8ZmPF/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "title": "المحاضرة الثالثة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"الاجتماعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-fQMsCCykwQIpA4Xbl3Tv9d9YeuVZhgW/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 3,
+                //     "title": "المحاضرة الثالثة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"الاجتماعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-fQMsCCykwQIpA4Xbl3Tv9d9YeuVZhgW/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "title": "المحاضرة الرابعة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"العروض التقديمية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-WMpS64OrzPfhmAi2QUXKWjexynnoQay/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 4,
+                //     "title": "المحاضرة الرابعة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"العروض التقديمية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-WMpS64OrzPfhmAi2QUXKWjexynnoQay/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "title": "المحاضرة الخامسة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"التفاوض\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-cIdSQT38YvYOQRw7MoABEIpp45j76u6/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 5,
+                //     "title": "المحاضرة الخامسة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"التفاوض\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-cIdSQT38YvYOQRw7MoABEIpp45j76u6/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "title": "المحاضرة السادسة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"المراسلات التجارية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-_nVGjhaa3onUX7XgmL5rTdvJsSoMitp/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 6,
+                //     "title": "المحاضرة السادسة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"المراسلات التجارية\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-_nVGjhaa3onUX7XgmL5rTdvJsSoMitp/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 7,
-                    "title": "المحاضرة السابعة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"التسويق والمبيعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-_uPTUvKzYpb4HBLm-Ahiy-j4R3NHt8y/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 7,
+                //     "title": "المحاضرة السابعة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"التسويق والمبيعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-_uPTUvKzYpb4HBLm-Ahiy-j4R3NHt8y/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "title": "المحاضرة الثامنة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"مراجعة الأعمال\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-TZiTtBZgyWEPXHjeBCo-RvS2zM1Ccwj/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 8,
+                //     "title": "المحاضرة الثامنة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"مراجعة الأعمال\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-TZiTtBZgyWEPXHjeBCo-RvS2zM1Ccwj/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "title": "المحاضرة التاسعة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"التسويق والمبيعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-o_vZy8dHxB8Ml5JGMViSWmOAjoAb-Ad/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 9,
+                //     "title": "المحاضرة التاسعة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"التسويق والمبيعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-o_vZy8dHxB8Ml5JGMViSWmOAjoAb-Ad/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                },
-                {
-                    "id": 10,
-                    "title": "المحاضرة العاشرة",
-                    "content": "في هذه المحاضرة سنتناول موضوع \"التسويق والمبيعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                    "pdfUrl": "https://docs.google.com/presentation/d/1-m3tQh_jWypRo2kmRyyHC708w86OLBJK/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
-                    "vocabulary": [
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "id": 10,
+                //     "title": "المحاضرة العاشرة",
+                //     "content": "في هذه المحاضرة سنتناول موضوع \"التسويق والمبيعات\" ضمن قسم \"اللغة الإنجليزية للأعمال\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                //     "pdfUrl": "https://docs.google.com/presentation/d/1-m3tQh_jWypRo2kmRyyHC708w86OLBJK/edit?usp=drive_link&ouid=103688394259662958672&rtpof=true&sd=true",
+                //     "vocabulary": [
         
-                    ],
-                    "importantPoints": [
-                    ],
-                    "flashcards": [
+                //     ],
+                //     "importantPoints": [
+                //     ],
+                //     "flashcards": [
 
-                    ],
-                    "quiz": [
-                        // {
-                        //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
-                        //     "options": [
-                        //         "الإجابة الصحيحة والمرتبطة بالموضوع",
-                        //         "إجابة غير مرتبطة بالموضوع",
-                        //         "إجابة عامة غير دقيقة",
-                        //         "لا شيء مما سبق"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الاستخدام الصحيح كما ورد في الشرح",
-                        //         "استخدام خاطئ شائع",
-                        //         "استخدام قديم غير مستعمل",
-                        //         "استخدام غير مرتبط"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
-                        //     "options": [
-                        //         "اتباع الخطوات كما وردت في الدرس",
-                        //         "تجاهل القاعدة الأساسية",
-                        //         "البدء بدون فهم الأساسيات",
-                        //         "حفظ الأمثلة فقط دون فهم"
-                        //     ],
-                        //     "correct": 0
-                        // },
-                        // {
-                        //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
-                        //     "options": [
-                        //         "الجملة التي تطبق القاعدة بشكل صحيح",
-                        //         "جملة تحتوي على خطأ واضح",
-                        //         "جملة غير مكتملة",
-                        //         "جملة بلغة أخرى تمامًا"
-                        //     ],
-                        //     "correct": 0
-                        // }
-                    ]
-                }
+                //     ],
+                //     "quiz": [
+                //         // {
+                //         //     "question": "ما هو المعنى الأصح لموضوع 'المقابلات الشخصية' في هذا الدرس؟",
+                //         //     "options": [
+                //         //         "الإجابة الصحيحة والمرتبطة بالموضوع",
+                //         //         "إجابة غير مرتبطة بالموضوع",
+                //         //         "إجابة عامة غير دقيقة",
+                //         //         "لا شيء مما سبق"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي مما يلي يُعد استخدامًا صحيحًا لما تم شرحه في 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الاستخدام الصحيح كما ورد في الشرح",
+                //         //         "استخدام خاطئ شائع",
+                //         //         "استخدام قديم غير مستعمل",
+                //         //         "استخدام غير مرتبط"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "عند التطبيق العملي لدرس 'المقابلات الشخصية'، ماذا يجب أن تفعل أولاً؟",
+                //         //     "options": [
+                //         //         "اتباع الخطوات كما وردت في الدرس",
+                //         //         "تجاهل القاعدة الأساسية",
+                //         //         "البدء بدون فهم الأساسيات",
+                //         //         "حفظ الأمثلة فقط دون فهم"
+                //         //     ],
+                //         //     "correct": 0
+                //         // },
+                //         // {
+                //         //     "question": "أي جملة تعكس بشكل صحيح فكرة 'المقابلات الشخصية'؟",
+                //         //     "options": [
+                //         //         "الجملة التي تطبق القاعدة بشكل صحيح",
+                //         //         "جملة تحتوي على خطأ واضح",
+                //         //         "جملة غير مكتملة",
+                //         //         "جملة بلغة أخرى تمامًا"
+                //         //     ],
+                //         //     "correct": 0
+                //         // }
+                //     ]
+                // }
             ]
         },
         // {
