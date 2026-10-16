@@ -24,11 +24,11 @@ const platformData = {
                             },
                             {
                                 "term": "International Flight",
-                                "definition": "A flight that takes off in one country and lands in another[cite: 3]."
+                                "definition": "A flight that takes off in one country and lands in another."
                             },
                             {
                                 "term": "Domestic Flight",
-                                "definition": "A flight that begins and ends in the same country[cite: 3]."
+                                "definition": "A flight that begins and ends in the same country."
                             },
                             {
                                 "term": "Sea Cruise",
@@ -352,32 +352,244 @@ const platformData = {
                          
                     ]
                 },
-                //     "id": 3,
-                    // "title": "المحاضرة 3",
-                //     // "content": "في هذه المحاضرة سنتناول موضوع \"الحروف والأصوات\" ضمن قسم \"أساسيات اللغة الإنجليزية\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
-                //     "pdfUrl": "https://drive.google.com/file/d/PLACEHOLDER_section1_lecture1/view",
-                //     "vocabulary": [
+                {
+                    "id": 3,
+                    "title": "المحاضرة 3",
+                    "content": "في هذه المحاضرة سنتناول موضوع \"الحروف والأصوات\" ضمن قسم \"أساسيات اللغة الإنجليزية\". سنستعرض المفاهيم الأساسية، أمثلة تطبيقية، وتمارين عملية تساعدك على إتقان هذا الجزء من المنهج. يُنصح بمراجعة المفردات والنقاط المهمة قبل الانتقال إلى الاختبار الخاص بالمحاضرة.",
+                    "pdfUrl": "https://drive.google.com/file/d/1cRKMsuDRPDtaHZYVL-jxGdcFV9Qdaoi7/view?usp=drive_link",
+                    "vocabulary": [
 
-                //     ],
-                //     "importantPoints": [
-                //     ],
-                //     // "flashcards": [
-                //     //     {
-                //     //         "term": "Deadline",
-                //     //         "definition": "مصطلح متعلق بموضوع الحروف والأصوات يُستخدم في السياقات التعليمية والعملية.",
-                //     //         "translation": "الموعد النهائي",
-                //     //         "example": "The deadline for the report is Friday."
-                //     //     },
-                //     //     {
-                //     //         "term": "Efficient",
-                //     //         "definition": "مفهوم أساسي ضمن درس الحروف والأصوات يساعد على الفهم العميق للموضوع.",
-                //     //         "translation": "فعّال / كفؤ",
-                //     //         "example": "This method is more efficient."
-                //     //     }
-                //     // ],
-                //     "quiz": [
-                //     ]
-                // },
+                    ],
+                    // "importantPoints": [
+                    // ],
+                    "flashcards": [
+                        {
+                            "term": "Suite",
+                            "definition": "A room with a living room. It refers to a larger and more luxurious type of hotel room that typically consists of multiple rooms or a designated living area in addition to the bedroom"
+                        },
+                        {
+                            "term": "SS",
+                            "definition": "Supplement for Single (Single Supplement): An additional fee charged to solo travelers who occupy a room that is typically designed for double occupancy, such as a double or twin room"
+                        },
+                        {
+                            "term": "OTA",
+                            "definition": "Online Travel Agency: A platform for booking travel services online"
+                        },
+                        {
+                            "term": "LCC",
+                            "definition": "Low-Cost Carrier: An airline that offers low fares with fewer amenities"
+                        },
+                        {
+                            "term": "MICE",
+                            "definition": "Meetings, Incentives, Conferences, and Exhibitions: Refers to the tourism segment related to business travel"
+                        },
+                        {
+                            "term": "NYC",
+                            "definition": "New York City, USA"
+                        },
+                        {
+                            "term": "LAX",
+                            "definition": "Los Angeles, USA"
+                        },
+                        {
+                            "term": "LON",
+                            "definition": "London, UK"
+                        },
+                        {
+                            "term": "PAR",
+                            "definition": "Paris, France"
+                        },
+                        {
+                            "term": "ROM",
+                            "definition": "Rome, Italy"
+                        },
+                        {
+                            "term": "BER",
+                            "definition": "Berlin, Germany"
+                        },
+                        {
+                            "term": "BKK",
+                            "definition": "Bangkok, Thailand"
+                        },
+                        {
+                            "term": "SYD",
+                            "definition": "Sydney, Australia"
+                        },
+                        {
+                            "term": "HKG",
+                            "definition": "Hong Kong, China"
+                        },
+                        {
+                            "term": "SIN",
+                            "definition": "Singapore, Singapore"
+                        },
+                        {
+                            "term": "DUB",
+                            "definition": "Dublin, Ireland"
+                        },
+                        {
+                            "term": "DEL",
+                            "definition": "New Delhi, India"
+                        },
+                        {
+                            "term": "IST",
+                            "definition": "Istanbul, Turkey"
+                        },
+                        {
+                            "term": "MEX",
+                            "definition": "Mexico City, Mexico"
+                        },
+                        {
+                            "term": "SAO",
+                            "definition": "São Paulo, Brazil"
+                        },
+                        {
+                            "term": "KUL",
+                            "definition": "Kuala Lumpur, Malaysia"
+                        },
+                        {
+                            "term": "ZRH",
+                            "definition": "Zurich, Switzerland"
+                        },
+                        {
+                            "term": "HRG",
+                            "definition": "Hurghada, Egypt"
+                        },
+                        {
+                            "term": "LXR",
+                            "definition": "Luxor, Egypt"
+                        },
+                        {
+                            "term": "ASW",
+                            "definition": "Aswan, Egypt"
+                        },
+                        {
+                            "term": "CAI",
+                            "definition": "Cairo, Egypt"
+                        },
+                        {
+                            "term": "ALX",
+                            "definition": "Alexandria, Egypt"
+                        },
+                        {
+                            "term": "SSH",
+                            "definition": "Sharm El Sheikh, Egypt"
+                        },
+                        {
+                            "term": "Important Information Needed Before Preparing the Itinerary",
+                            "definition": "Includes: A. Total number of PAX, B. Type of transportation (bus, flight, train, ship, etc.), C. Hotel's classification, D. Meal plan (BB, HB, FB), E. Duration of the itinerary, F. Arrival date (low, high, or shoulder period), G. List of destinations inside the country, H. Sightseeing included in the itinerary."
+                        },
+                        {
+                            "term": "Requirements That Travel Agents Need From Local Agents",
+                            "definition": "Includes: A. High quality and first-class service, B. New and innovation ideas and recommendations, C. Quick answers and solving the problems, D. Providing net price, E. Honesty and implementation of all items as showing in the itinerary, F. Determining all items of the package tours."
+                        },
+                        {
+                            "term": "Requirements That Local Agents Need From Travel Agents",
+                            "definition": "Includes: A. Some details such as no. of Pax, date, and time of arrival, B. Accommodation: Especial information about lodging such as no. of rooms, types of rooms, etc., C. Meals: No. of meals, D. Sightseeing: When tourists need to visit special attractions, E. Special needs: Special requests for some cases of tourists, F. Any other information which is necessary."
+                        }
+                    ],
+                    "quiz": [
+                        {
+                            "question": "What does the abbreviation `OTA` stand for in the context of travel agencies?",
+                            "options": ["Overseas Tour Association", "Online Travel Agency", "Operational Travel Agent", "Official Tourism Authority"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "In hotel accommodations, what is a Single Supplement (`SS`) fee charged for?",
+                            "options": ["Solo travelers who occupy a room designed for double occupancy", "Travelers who book a suite instead of a standard room", "An extra charge for single-bed dormitory style hostels", "A service fee for booking online travel tickets"],
+                            "correct": 0
+                        },
+                        {
+                            "question": "What does the tourism business acronym `MICE` stand for?",
+                            "options": ["Management, Incentives, Conferences, and Exhibitions", "Meetings, International Conventions, and Events", "Marketing, Information, Conferences, and Entertaining", "Meetings, Incentives, Conferences, and Exhibitions"],
+                            "correct": 3
+                        },
+                        {
+                            "question": "Which of the following correctly pairs an international city abbreviation with its actual city?",
+                            "options": ["`PAR` stands for Prague, Austria", "`BER` stands for Bern, Switzerland", "`ZRH` stands for Zurich, Switzerland", "`SYD` stands for Stockholm, Sweden"],
+                            "correct": 2
+                        },
+                        {
+                            "question": "What city does the abbreviation `SSH` represent in Egypt's tourism map?",
+                            "options": ["Sohag", "Sharm El Sheikh", "Siwa", "Suez"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "Which of the following is considered essential information needed *before* preparing a travel itinerary?",
+                            "options": ["The brand of luggage passengers carry", "Total number of PAX and meal plan (`BB`, `HB`, `FB`)", "The flight seating assignments of each individual passenger", "The personal passport numbers of all passengers"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "What is a primary requirement that travel agents expect from local ground agents?",
+                            "options": ["Handling all passport and visa issuing services directly", "Offering free personal travel insurance for every passenger", "Providing net prices and high-quality first-class service", "Managing airplane maintenance and flight schedules"],
+                            "correct": 2
+                        },
+                        {
+                            "question": "When a local agent requests information from a travel agent, which of the following is a key requirement?",
+                            "options": ["The exact bank account details of the traveling clients", "Specific lodging details including the number and types of rooms", "Detailed flight crew member profiles", "Hotel interior architectural blueprints"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "What does a hotel `Suite` specifically offer compared to a standard hotel room?",
+                            "options": ["Multiple rooms or a designated living area in addition to the bedroom", "Free airline ticket upgrades", "Access to an exclusive airport lounge", "Complimentary private car rental"],
+                            "correct": 0
+                        },
+                        {
+                            "question": "Which of the following correctly identifies an Egyptian city and its abbreviation code?",
+                            "options": ["`CAI` stands for Cairo", "`ASW` stands for Alexandria", "`HRG` stands for Helwan", "`LX` stands for Luxor"],
+                            "correct": 0
+                        },
+                        {
+                            "question": "What does the abbreviation `LCC` stand for in the travel and airline industry?",
+                            "options": ["Luxury Cruise Company", "Local City Code", "Licensed Cargo Charter", "Low-Cost Carrier"],
+                            "correct": 3
+                        },
+                        {
+                            "question": "Which international city is represented by the code `BKK`?",
+                            "options": ["Bangkok, Thailand", "Berlin, Germany", "Brussels, Belgium", "Barcelona, Spain"],
+                            "correct": 0
+                        },
+                        {
+                            "question": "Which of the following Egyptian cities matches the airport or location code `HRG`?",
+                            "options": ["Luxor", "Aswan", "Hurghada", "Cairo"],
+                            "correct": 2
+                        },
+                        {
+                            "question": "When analyzing the arrival period for preparing an itinerary, which of the following seasons are explicitly considered?",
+                            "options": ["Rainy, dry, or windy season", "Low, high, or shoulder period", "Spring, summer, or autumn season", "Weekday, weekend, or holiday period"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "What is one of the key requirements that travel agents expect from local ground agents regarding pricing?",
+                            "options": ["Providing retail brochure prices", "Providing net prices", "Setting commission-free rates", "Charging hourly consulting fees"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "Which of the following correctly pairs a world city code with its country?",
+                            "options": ["`NYC` stands for New Castle, UK", "`IST` stands for Istanbul, Turkey", "`MEX` stands for Madrid, Spain", "`DEL` stands for Dubai, UAE"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "Which detail is *not* part of the essential information needed before preparing a travel itinerary?",
+                            "options": ["Total number of PAX", "Hotel's classification", "The personal passport numbers of all passengers", "Duration of the itinerary"],
+                            "correct": 2
+                        },
+                        {
+                            "question": "What is expected from local agents when travel agents submit an itinerary plan?",
+                            "options": ["Rewriting the entire tour schedule from scratch", "Implementation of all items as shown in the itinerary", "Modifying all hotel bookings to cheaper alternatives", "Canceling sightseeing visits to save time"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "When local agents request information from travel agents, what specific lodging details must be provided?",
+                            "options": ["The color schemes of the hotel rooms", "Number of rooms and types of rooms", "The exact names of the hotel housekeeping staff", "The restaurant menus for breakfast"],
+                            "correct": 1
+                        },
+                        {
+                            "question": "Which of the following abbreviations represents a major global business travel and event sector?",
+                            "options": ["`OTA`", "`LCC`", "`MICE`", "`SS`"],
+                            "correct": 2
+                        }                    ],
+                },
                 // {
                 //     "id": 4,
                 //     "title": "المحاضرة 4: الأرقام والتواريخ",
@@ -6090,21 +6302,21 @@ const platformData = {
                 "title": "English",
                 "flag": "EN",
                 "quiz": [
-                    // {"question": "At Luxor, the tourist is ………. ..to see for the first time high temples built of bulky stones without using any of the modern necessary tools we use in building our houses or any other foundations.", "options": ["surprised", "so sad", "surprising", "terribly afraid"], "correct": 0},
-                    // {"question": "Tourism is one of the primary………...of national income in any country.", "options": ["sources", "resources", "seasons", "sorrows"], "correct": 0},
-                    // {"question": "If someone gets into a town for the first time and suddenly finds out that s/he has been robbed of all the money s/he has got, what may s/he do?", "options": ["S/he may shout out: \"somebody finds me the one who has stolen my money.\"", "S/he may get crazy and cry deeply.", "S/he may accuse all citizens of the country of being thieves.", "S/he may feel so sad and go to any nearby police station for help."], "correct": 3},
-                    // {"question": "A good hotel shows from …………", "options": ["the way it looks from without.", "the way it appears from within.", "the kind of service and facilities it presents.", "all above things together."], "correct": 3},
-                    // {"question": "Egypt is one of the most beautiful countries in the world, which……… attractive to any visitor.", "options": ["looks", "looking", "has looked", "is being"], "correct": 0},
-                    // {"question": "Our schools' curricula urgently.....................................changing.", "options": ["needs", "need", "is needing", "were needed"], "correct": 1},
-                    // {"question": "If you meet anywhere someone whom you don't know, you may be shocked by his nice looking at you. What do you think of this one? Is s/he probably someone who…………?", "options": ["knows you, but you don't know him or her", "wants to rob you", "wants to kill you", "looks for help"], "correct": 0},
-                    // {"question": "When you turn on the shower in your room, the water may come out very………………..", "options": ["slowly.", "slow.", "slowness.", "quick."], "correct": 0},
-                    // {"question": "Whenever anybody does you a favor, he always expects you to………", "options": ["give him some money.", "thank him.", "talk with him for a while.", "thank you."], "correct": 1},
-                    // {"question": "Once T. S. Eliot said that \"Every traveler should..............................................\"", "options": ["take care of himself or herself.", "have much money to give foreigners some tips.", "sleep well before leaving home.", "take a train, but never take an airplane, as it is safer."], "correct": 0},
-                    // {"question": "Many farmers use ………. fertilizers to improve their crops and make much money, but disregard their impact on man's health.", "options": ["useful", "expensive", "harmful", "most recent"], "correct": 2},
-                    // {"question": "It is the national duty of every citizen in a country to…………... to it.", "options": ["to have to work hard", "take from it and never give", "have to sing", "have a deep sense of belonging"], "correct": 3},
-                    // {"question": "Many of the poor Egyptians often harass tourists from different foreign countries to give them some money or even talking with them forcibly, which indeed sounds……………", "options": ["very polite", "a mark of their being friendly", "a good sign of civility", "very impolite"], "correct": 3},
-                    // {"question": "William Shakespeare was a great British…………….…", "options": ["carpenter", "musician", "dramatist", "philosopher"], "correct": 2},
-                    // {"question": "Some of us may feel guilty ………..…….they come to hurt someone unintentionally.", "options": ["where", "when", "whose", "how"], "correct": 1},
+                    {"question": "At Luxor, the tourist is ………. ..to see for the first time high temples built of bulky stones without using any of the modern necessary tools we use in building our houses or any other foundations.", "options": ["surprised", "so sad", "surprising", "terribly afraid"], "correct": 0},
+                    {"question": "Tourism is one of the primary………...of national income in any country.", "options": ["sources", "resources", "seasons", "sorrows"], "correct": 1},
+                    {"question": "If someone gets into a town for the first time and suddenly finds out that s/he has been robbed of all the money s/he has got, what may s/he do?", "options": ["S/he may shout out: \"somebody finds me the one who has stolen my money.\"", "S/he may get crazy and cry deeply.", "S/he may accuse all citizens of the country of being thieves.", "S/he may feel so sad and go to any nearby police station for help."], "correct": 3},
+                    {"question": "A good hotel shows from …………", "options": ["the way it looks from without.", "the way it appears from within.", "the kind of service and facilities it presents.", "all above things together."], "correct": 3},
+                    {"question": "Egypt is one of the most beautiful countries in the world, which……… attractive to any visitor.", "options": ["looks", "looking", "has looked", "is being"], "correct": 0},
+                    {"question": "Our schools' curricula urgently.....................................changing.", "options": ["needs", "need", "is needing", "were needed"], "correct": 1},
+                    {"question": "If you meet anywhere someone whom you don't know, you may be shocked by his nice looking at you. What do you think of this one? Is s/he probably someone who…………?", "options": ["knows you, but you don't know him or her", "wants to rob you", "wants to kill you", "looks for help"], "correct": 0},
+                    {"question": "When you turn on the shower in your room, the water may come out very………………..", "options": ["slowly.", "slow.", "slowness.", "quick."], "correct": 0},
+                    {"question": "Whenever anybody does you a favor, he always expects you to………", "options": ["give him some money.", "thank him.", "talk with him for a while.", "thank you."], "correct": 3},
+                    {"question": "Once T. S. Eliot said that \"Every traveler should..............................................\"", "options": ["take care of himself or herself.", "have much money to give foreigners some tips.", "sleep well before leaving home.", "take a train, but never take an airplane, as it is safer."], "correct": 1},
+                    {"question": "Many farmers use ………. fertilizers to improve their crops and make much money, but disregard their impact on man's health.", "options": ["useful", "expensive", "harmful", "most recent"], "correct": 2},
+                    {"question": "It is the national duty of every citizen in a country to…………... to it.", "options": ["to have to work hard", "take from it and never give", "have to sing", "have a deep sense of belonging"], "correct": 3},
+                    {"question": "Many of the poor Egyptians often harass tourists from different foreign countries to give them some money or even talking with them forcibly, which indeed sounds……………", "options": ["very polite", "a mark of their being friendly", "a good sign of civility", "very impolite"], "correct": 3},
+                    {"question": "William Shakespeare was a great British…………….…", "options": ["carpenter", "musician", "dramatist", "philosopher"], "correct": 2},
+                    {"question": "Some of us may feel guilty ………..…….they come to hurt someone unintentionally.", "options": ["where", "when", "whose", "how"], "correct": 1},
                     // {"question": "By midnight my brother still ....................... home.", "options": ["didn't come", "hasn't come", "hadn't come", "wasn't coming"], "correct": 2},
                     // {"question": "They .......... their dinner until their father had come.", "options": ["didn't take", "haven't taken", "hadn't taken", "weren't taking"], "correct": 0},
                     // {"question": "The doctor didn't do anything as the patient .................... when he arrived.", "options": ["died", "has died", "was died", "had died"], "correct": 3},
